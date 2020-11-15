@@ -1,0 +1,340 @@
+body{
+    height: 100%;
+    margin: 0;
+}
+
+.header img{
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    width: auto;
+    height: 370px;
+    border: 10px;
+    margin: auto;
+    padding: inherit;
+}
+
+/*.same{
+    position: relative;
+    width: 450px;
+    height: 35px;
+}*/
+
+.input{
+    position: relative;
+    width: auto;
+    height: 60px;
+    background-color: #ccffcc;
+    top: -15px;
+}
+
+.in2{
+    position: relative;
+    width: 450px;
+    height: 30px;
+    background-color: white;
+    left: 500px;
+    top: -6px;
+    border-color: white;
+    font-family: cursive;
+}
+
+.in3{
+    position: relative;
+    width: 80px;
+    height: 30px;
+    background-color: white;
+    left: 530px;
+    top: -6px;
+    border-color: white;
+    font-family: cursive;
+}
+
+.data{
+    position: relative;
+    top: 8px;
+    left: 10px;
+    font-family: cursive;
+    font-size: 12px;
+    color: #ffb366;
+}
+
+.button1{
+    position: relative;
+    background-color: white;
+    border: none;
+    color: #ffb366;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: cursive;
+    font-size: 7px;
+    margin: 4px 4px;
+    top: -8px;
+    left: 550px;
+    border-color: #ff8000;
+    border-radius: 50%;
+}
+
+.button1:active{
+    background-color: #ccffcc;
+    padding: 6px;
+}
+
+.button1:focus{
+    outline: 0;
+}
+
+.add_container{
+    position: relative;
+    background-color: red;
+    width: 0px;
+    left: 450px;
+    top: 25px;
+}
+
+.container_clearfix{
+    position: relative;
+}
+
+.income{
+    left: 50px;
+}
+
+.income_title{
+    position: relative;
+    left: 250px;
+    top: -25px;
+    color: #00ff00;
+}
+
+.income_list{
+    position: absolute;
+    left: 100px;
+}
+
+.item clearfix{
+    position: relative;
+    width: 300px;
+    height: 35px;
+    background-color: red;
+    
+}
+
+.expenses{
+    position: relative;
+    left: 1000px;
+}
+
+.expense_title{
+    position: relative;
+    top: -70px;
+    color: #ff8000;
+}
+
+.expenses_list{
+    position: absolute;
+    top: -5px;
+    left: -60px;
+    
+}
+.item_clearfix{
+    position: relative;
+    width: 500px;
+    height: 40px;
+    background-color: #ccffff;
+    border: 10px;
+    outline-style: solid;
+    outline-color: #00cccc;
+}
+
+.item_clearfix:hover{
+    background-color: #66ffff;
+}
+
+.budget_value{
+    position: relative;
+    top: -320px;
+    left: 700px;
+    height: 80px;
+    width: 240px;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.budget_income_value{
+    position: relative;
+    left: 360px;
+    top: -15px;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+.budget_income_ptg{
+    position: relative;
+    left: 260px;
+    top: -25px;
+    font-size: 24px;
+}
+
+.budget_expense_value{
+    position: relative;
+    left: 360px;
+    top: -15px;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+.budget_expense_ptg{
+    position: relative;
+    font-size: 12px;
+    color: black;
+    height: 20px;
+    width: 30px;
+    top: -36px;
+    left: 468px;
+    text-align: center;
+    font-weight: 1000;
+    background-color: rgba(0,0,0,0.15);
+}
+
+#income_1{
+    position: relative;
+}
+
+#number1{
+    position: relative;
+    top: 25px;
+    font-family: cursive;
+    font-size: 29px;
+    left: 24px;
+    color: #80ffff;
+}
+
+#val1{
+    color: #00ff00;
+}
+
+#val2{
+    color: #ff8000;
+}
+
+#segment1{
+    position: relative;
+    top: -20px;
+}
+
+#segment2{
+    position: relative;
+    left: -150px;
+}
+
+.btns {
+    position: relative;
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 2px 3px;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    left: 485px;
+    top: -38px;
+}
+
+.btns:hover {
+  background-color: RoyalBlue;
+}
+
+.btns:focus{
+    outline: 0;
+}
+
+#btn1{
+    position: relative;
+    
+}
+
+.item_description{
+    position: relative;
+    font-size: 17px;
+    top: 4px;
+    left: 14px;
+    font-family: cursive;
+}
+
+.item_value{
+    position: relative;
+    font-family: cursive;
+    font-size: 17px;
+    left: 375px;
+    top: -17px;
+}
+
+.item_delete-btn{
+    position: relative;
+    left: 160px;
+    top: -60px;
+}
+
+#d1{
+    position: relative;
+    top: -310px;
+    left: 550px;
+    height: 40px;
+    width: 500px;
+    background-color: #00ff99;
+    
+}
+
+#d2{
+    position: relative;
+    top: -300px;
+    left: 550px;
+    height: 40px;
+    width: 500px;
+    background-color: #ffd480;
+}
+
+#p1{
+    position: relative;
+    font-family: cursive;
+    left: 650px;
+    top: -320px;
+    color: #b3ffff;
+}
+
+#p2{
+    position: relative;
+    font-family: cursive;
+    font-size: 10px;
+    font-weight: 1000;
+    top: 15px;
+    left: 20px;
+}
+
+#p3{
+    position: relative;
+    font-family: cursive;
+    font-size: 10px;
+    font-weight: 1000;
+    top: 15px;
+    left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

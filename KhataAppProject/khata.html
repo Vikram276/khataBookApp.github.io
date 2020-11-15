@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Khata Book..</title>
+        <meta name="description" content="DataBase for Business..">
+        <link rel="stylesheet" href="khatabook.css">
+    </head>
+    <body>
+        <div class="header">
+            <img src="https://wallpapercave.com/wp/wp2532971.jpg" alt="Snowy Hills" />
+            <p id="p1">Available Khata in <span class="year">%YEAR%</span></p>
+            <div class="budget_value"><h4 id="number1">+ 2344.68</h4></div>
+            <div class = "same" id="d1">
+                <p id="p2">INCOME</p>
+                <div class="right">
+                    <div class="budget_income_value">+ 2334.67</div>
+                    <div class="budget_income_ptg">&nbsp</div>
+                </div>
+            </div>
+            <div class ="same" id="d2">
+                <p id="p3">EXPENSES</p>
+                <div class="right2">
+                    <div class="budget_expense_value">- 677.43</div>
+                    <div class="budget_expense_ptg">23%</div>
+                </div>
+            </div>
+        </div> 
+        <div class="input">
+            <div class="add_container">
+                <select class="add_type">
+                    <option value="inc" selected>+</option>
+                    <option value="exp">-</option>
+                </select>
+            </div>
+            <input type="text" class="in2" placeholder="Add Description">
+            <input type="number" class="in3" placeholder="Value">
+            <button class="button1">Done</button>
+        </div>
+        
+        <div class="container_clearfix" >
+            <div class="income">
+                <h2 class="income_title">INCOME</h2>
+                <div class="income_list">
+                    <div class="item_clearfix" id="income-1">
+                        <div class="item_description" id="txt1"><b>Description</b></div>
+                        <div class="item_value" id="val1"><b>Value</b></div>
+                    </div>
+                </div>
+            </div>
+            <div class="expenses">
+                <h2 class="expense_title">EXPENSES</h2>
+                <div class="expenses_list">
+                    <div class="item_clearfix" id="income-2">
+                        <div class="item_description" id="txt2"><b>Description</b></div>
+                        <div class="item_value" id="val2"><b>Value</b></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="khataCtrl.js"></script>
+    </body>
+</html>
